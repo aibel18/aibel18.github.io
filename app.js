@@ -1,13 +1,14 @@
 /// this archive has remplace for json send by server
-import ServicesSie from './service.js'
+//import ServicesSie from './service.js'
 import routerComp from './routerComp.js';
 
 let routes = {
   "#": { name: "home", component: "hom-com", url: "./pages/homeCom.js" },
-  "#repcaj": { name: "reporte caja", component: "rep-caj-com", url: "./pages/reportCajCom.js" },
-  "#repven": { name: "reporte vendedor", component: "rep-ven-com", url: "./pages/reportVenCom.js" },
-  "#repalm": { name: "reporte almacenero", component: "rep-alm-com", url: "./pages/reportAlmCom.js" },
-  "#repadm": { name: "reporte administrador", component: "rep-adm-com", url: "./pages/reportAdmCom.js" }
+  "#about": { name: "About", component: "abo-com", url: "./pages/aboutCom.js" },
+  "#research": { name: "Research", component: "res-com", url: "./pages/researchCom.js" },
+  "#experience": { name: "Experience", component: "exp-com", url: "./pages/experienceCom.js" },
+  "#publications": { name: "Publications", component: "pub-com", url: "./pages/publicationsCom.js" },
+  "#appdata": { name: "App/Data", component: "app-com", url: "./pages/appCom.js" }
 };
 for (let v in routes) {
 
@@ -27,15 +28,12 @@ var app = new Vue({
   },
   data: {
     block: false,
-    organization: "Materiales y Conecciones",
-    version: "0.30",
-    user: "administrador",
     menu: routes
   },
   computed: {
-    service: function () {
+    /*service: function () {
       return new ServicesSie("/Empresa/rest", this);
-    }
+    }*/
   },
   mounted: function () {
     setTimeout(() => {
