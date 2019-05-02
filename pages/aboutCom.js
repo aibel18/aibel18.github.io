@@ -1,6 +1,8 @@
 Vue.component('abo-com', {
   template:
     `
+    <!--Main layout-->
+    <main>
     <!--Section: about-->
       <section id="about" class="text-center py-5">
 
@@ -10,49 +12,68 @@ Vue.component('abo-com', {
           <!-- Section heading -->
           <h2 class="h1-responsive font-weight-bold mb-5">About Me</h2>
 
-          <!-- Carousel Wrapper -->
-          <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade"
-            data-ride="carousel" data-interval="false">
-            <!--Slides-->
-            <div class="carousel-inner" role="listbox">
-              <!--First slide-->
-              <div class="carousel-item active">
-                <div class="testimonial">
-                  <!--Avatar-->
+          <!--Content-->
+          <p style="width: 95%;margin: auto;max-width:700px;text-align: justify;">
+            Hello, I'm Abel, I'm a master student's in Com­pu­ter Science at the Federal University of Rio Grande do Sul started in 2017. I  de­greed in System En­gi­nee­ring from the National Uni­ver­si­ty of San Agustin in 2015. I research in physically-based simulation and Interactive computer graphics, My re­cent re­searches fo­cu­ses on the modeling 3D Object Dynamic in Virtual Reality with properties physics as solid, soft, liquid, gas, using techniques particles as PBD, SPH, MPM.
+          </p><br />
+          <p style="width: 95%;margin: auto;max-width:700px;text-align: justify;">
+            Before starting the research, I developed much desktop and web apps where I acquired extensive knowledge in different programming languages, algorithms, data structures, database, libraries/framework and the use of information technologies. I consider myself a self-taught person and I like always to face new challenges.
+          </p>
+          <br />
+          <a class="btn btn-blue btn-sm " href="/img/cv.pdf"><i class="fa fa-download"></i> Download CV</a>
+        </div>
+        <!-- Container -->
 
-                  <!--Content-->
-                  <p style="width: 92%;margin: auto">
-                    Hello, I research in Interactive computer graphics. My research interests include physically-based
-                    simulation, real-time rendering, 3D reconstruction, GPU computing, processing images, virtual
-                    reality.
-                    Actually I am finishing my master in computer science at Federal University of Rio Grande do Sul..
-                  </p><br />
-                  <p style="width: 92%;margin: auto">
-                    Hello, I research in Interactive computer graphics. My research interests include physically-based
-                    simulation, real-time rendering, 3D reconstruction, GPU computing, processing images, virtual
-                    reality.
-                    Actually I am finishing my master in computer science at Federal University of Rio Grande do Sul..
-                  </p>
-                  <a class="btn btn-blue btn-sm waves-effect waves-light"><i class="fa fa-clone left"></i> Download
-                    CV</a>
+      </section>
+      <!--Section: about-->
+
+      <!--Section: skills-->
+      <section class="text-center py-5" style="background-color: #eee;">
+
+        <!-- Container -->
+        <div class="container">
+
+        <h2 class="h1-responsive font-weight-bold mb-4">Skills</h2>
+
+          <!-- Grid row -->
+          <div class="row">            
+            <!-- Grid column -->
+            <div class="col-lg-6  py-3">
+              <!-- Section heading -->
+              <h6 class="h6-responsive font-weight-bold mb-2"> Programming Languages</h6>
+              <div >
+                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">C/C++</h6>
+                <div style="text-align: right; display:inline-block">
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star-half-o amber-text"> </i>
                 </div>
               </div>
-              <!--First slide-->
-              <!--Second slide-->
-              <div class="carousel-item">
-                <div class="testimonial">
-                  <!--Avatar-->
-
-                  <!--Content-->
-                  <p>
-                    Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                    accusantium doloremque laudantium.</p>
-                  <h4 class="font-weight-bold">John Doe</h4>
-                  <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
-                  <!--Review-->
+              <div >
+                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">C#</h6>
+                <div style="text-align: right; display:inline-block">
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star-half-o amber-text"> </i>
+                  <i class="fa fa-star-o amber-text"> </i>
+                </div>
+              </div>
+              <div >
+                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">Java</h6>
+                <div style="text-align: right; display:inline-block">
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star-half-o amber-text"> </i>
+                </div>
+              </div>              
+              <div >
+                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">Javascript</h6>
+                <div style="text-align: right; display:inline-block">
                   <i class="fa fa-star amber-text"> </i>
                   <i class="fa fa-star amber-text"> </i>
                   <i class="fa fa-star amber-text"> </i>
@@ -60,67 +81,109 @@ Vue.component('abo-com', {
                   <i class="fa fa-star-o amber-text"> </i>
                 </div>
               </div>
-              <!--Second slide-->
-              <!--Third slide-->
+              
+              <div >
+                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">Php</h6>
+                <div style="text-align: right; display:inline-block">
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star-o amber-text"> </i>
+                  <i class="fa fa-star-o amber-text"> </i>
+                </div>
+                <h6 class="h6-responsive font-weight-bold mb-2" style="margin-top: 15px;"> Tools</h6>
+                <a class="btn btn-sm btn-outline-primary" > R</a>
+                <a class="btn btn-sm btn-outline-primary" > Latex</a>
+                <a class="btn btn-sm btn-outline-primary" > Unity3D</a>                
+              </div>
+            </div>
+            <div class="col-lg-6 py-3">
+              <!-- Section heading -->
+              <h6 class="h6-responsive font-weight-bold mb-2"> Libraries / Frameworks</h6>
 
-              <div class="carousel-item">
-                <div class="testimonial">
-                  <div class="mh-education">
-                    <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"
-                      style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                      Education</h3>
-                    <div class="mh-education-deatils">
-                      <!-- Education Institutes-->
-                      <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s; animation-name: fadeInUp;">
-                        <h4>Art &amp; Multimedia From <a href="">Oxford University</a></h4>
-                        <div class="mh-eduyear">2005-2008</div>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                          page when looking at its layout. The point of using Lorem Ipsum </p>
-                      </div>
-                      <!-- Education Institutes-->
-                      <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
-                        <h4>Art &amp; Multimedia From <a href="">Oxford University</a></h4>
-                        <div class="mh-eduyear">2005-2008</div>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                          page when looking at its layout. The point of using Lorem Ipsum </p>
-                      </div>
-                      <!-- Education Institutes-->
-                      <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"
-                        style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                        <h4>Art &amp; Multimedia From <a href="">Oxford University</a></h4>
-                        <div class="mh-eduyear">2005-2008</div>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                          page when looking at its layout. The point of using L orem Ipsum </p>
-                      </div>
-                    </div>
-                  </div>
+              <a class="btn btn-sm btn-outline-primary" > OpenGL</a>
+              <a class="btn btn-sm btn-outline-primary" > CUDA</a>
+              <a class="btn btn-sm btn-outline-primary" > OpenMP</a>
+              <a class="btn btn-sm btn-outline-primary" > OpenCV</a>
+              <a class="btn btn-sm btn-outline-primary" > OpenVR</a>
+              <a class="btn btn-sm btn-outline-primary" > threeJS</a>
 
+              <h6 class="h6-responsive font-weight-bold mb-2" style="margin-top: 15px;"> Full Web</h6>
 
+              <a class="btn btn-sm btn-outline-secondary" > Html/Css</a>
+              <a class="btn btn-sm btn-outline-secondary" > websocket</a>
+              <a class="btn btn-sm btn-outline-secondary" > Json/xml</a>
+              <a class="btn btn-sm btn-outline-secondary" > Hibernate</a>
+              <a class="btn btn-sm btn-outline-secondary" > AngularJS</a>
+              <a class="btn btn-sm btn-outline-secondary" > VueJS</a>
+              <a class="btn btn-sm btn-outline-secondary" > JQuery</a>
+              <a class="btn btn-sm btn-outline-secondary" > JavaEE</a>
+              <a class="btn btn-sm btn-outline-secondary" > SQL</a>
+              <a class="btn btn-sm btn-outline-secondary" > NoSQL</a>
+
+            </div>
+
+          </div>
+          
+
+          <!--Content-->
+        </div>
+      </section>
+      <!--Section: skill-->
+      <!--Section: education-->
+      <section class="text-center py-5">
+
+        <!-- Container -->
+        <div class="container">
+
+          <!-- Section heading -->
+          <h2 class="h1-responsive font-weight-bold mb-5">Education</h2>
+
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-lg-7">
+              <div style="position:relative">
+              <i class="fa fa-graduation-cap" style="position:absolute; left:0"> </i>
+                <div style="margin-left: 24px;text-align: left">
+                  <h6 >M.S. in Computer Graphics From <a href="http://www.ufrgs.br/ufrgs/inicial">Federal University of Rio Grande do Sul </a></h6>
+                  <h6>2017-2019</h6>              
+                  <h6>researcher in the laboratory <a href="http://www.inf.ufrgs.br/site/en/"> INF</a></h6>
                 </div>
               </div>
-              <!--Third slide-->
+              <br/>
+              <p >Porto Alegre - Brazil</p>
             </div>
-            <!--Slides-->
-            <!--Controls-->
-            <a class="carousel-item-prev carousel-control" href="#carousel-example-1" role="button" data-slide="prev"
-              style="left: 0;top: 45%;">
-              <i class="fa fa-chevron-left"> </i>
-            </a>
-            <a class="carousel-item-next carousel-control" href="#carousel-example-1" role="button" data-slide="next"
-              style="right: 0;top: 45%;">
-              <i class="fa fa-chevron-right"> </i>
-            </a>
-            <!--Controls-->
+            <!-- Grid column -->
+            <div class="col-lg-5 text-center text-lg-right">
+              <img class="img-fluid" src="/img/ufrgs.png">
+            </div>
           </div>
-          <!-- Carousel Wrapper -->
-
+          <hr style="margin: 0.5rem 0"/>
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-lg-7">
+              <div style="position:relative;">
+                <i class="fa fa-graduation-cap" style="position:absolute; left:0"> </i>
+                <div style="margin-left: 24px;text-align: left">
+                  <h6 >B.S. in System En­gi­nee­ring From <a href="http://www.unsa.edu.pe/">National University  of San Agustin</a></h6>
+                  <h6>2009-2015</h6>              
+                  <h6>student in the laboratory <a href="http://fips.unsa.edu.pe/ingenieriadesistemas/"> EPIS</a></h6>
+                </div>
+              </div>
+              <br/>
+              <p >Arequipa - Peru</p>
+            </div>
+            <!-- Grid column -->
+            <div class="col-lg-5 text-center text-lg-right">
+              <img class="img-fluid" src="/img/unsa.png">
+            </div>
+          </div>
+          
         </div>
-        <!-- Container -->
-
       </section>
-      <!--Section: about-->
+    </main>  
     `,
   data: function () {
     return {
