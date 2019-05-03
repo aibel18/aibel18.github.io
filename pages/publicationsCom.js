@@ -15,7 +15,7 @@ Vue.component('pub-com', {
           <div class="row">
             <!-- Grid column -->
             <div class="col-lg-4 text-center text-lg-left">
-              <img class="img-fluid" src="/img/papers/shifting.jpg" >
+              <img class="img-fluid" src="img/papers/shifting.jpg" >
             </div>
             <!-- Grid column -->
             <div class="col-lg-8">
@@ -35,7 +35,7 @@ Vue.component('pub-com', {
           <div class="row">
             <!-- Grid column -->
             <div class="col-lg-4 text-center text-lg-left">
-              <img class="img-fluid" src="/img/papers/evaluation.jpeg" >
+              <img class="img-fluid" src="img/papers/evaluation.jpeg" >
             </div>
             <!-- Grid column -->
             <div class="col-lg-8">
@@ -55,7 +55,7 @@ Vue.component('pub-com', {
           <div class="row">
             <!-- Grid column -->
             <div class="col-lg-4 text-center text-lg-left">
-              <img class="img-fluid" src="/img/papers/3dathlon.jpg" >
+              <img class="img-fluid" src="img/papers/3dathlon.jpg" >
             </div>
             <!-- Grid column -->
             <div class="col-lg-8">
@@ -71,7 +71,7 @@ Vue.component('pub-com', {
               </div>              
             </div>            
           </div>
-          <hr style="border-top: 1px solid rgba(0,0,0,.2);/>
+          <hr style="border-top: 1px solid rgba(0,0,0,.2);"/>
           
         </div>
       </section>

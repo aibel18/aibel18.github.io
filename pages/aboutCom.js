@@ -156,7 +156,7 @@ Vue.component('abo-com', {
             </div>
             <!-- Grid column -->
             <div class="col-lg-5 text-center text-lg-right">
-              <img class="img-fluid" src="/img/ufrgs.png" style="max-height:120px">
+              <img class="img-fluid" src="img/ufrgs.png" style="max-height:120px">
             </div>
           </div>
           <hr style="margin: 0.5rem 0"/>
@@ -177,7 +177,7 @@ Vue.component('abo-com', {
             </div>
             <!-- Grid column -->
             <div class="col-lg-5 text-center text-lg-right">
-              <img class="img-fluid" src="/img/unsa.png" style="max-height:120px">
+              <img class="img-fluid" src="img/unsa.png" style="max-height:120px">
             </div>
           </div>
           
