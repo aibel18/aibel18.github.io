@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
+  <title>Abel Ticona</title>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -25,29 +25,14 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo">
             <ul class="navbar-nav smooth-scroll" style="margin:auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#" data-offset="90">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about" data-offset="90">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#research" data-offset="90">Research</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experience" data-offset="90">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#publications" data-offset="90">Publications</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#appdata" data-offset="90">App & Code</a>
+              <li class="nav-item" v-for="(item, index) in menu">
+                <a class="nav-link" :class=" { active: index == menuSelect }" :href="index"
+                  data-offset="90">{{item.name}}</a>
               </li>
             </ul>
 
@@ -141,12 +126,12 @@
     <!--Main layout-->
 
     <!-- Footer -->
-    <footer class="page-footer font-small pt-4">
+    <footer class="page-footer font-small">
 
-      <!-- Footer Elements -->
+      <!-- Footer Elements -- >
       <div class="container">
 
-        <!-- Social buttons -- >
+        < !-- Social buttons -- >
       <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
           <a class="btn-floating btn-fb mx-1">
@@ -174,16 +159,16 @@
           </a>
         </li>
       </ul>
-      <! -- Social buttons -->
+      <! -- Social buttons -- >
 
       </div>
-      <!-- Footer Elements -->
+      < !-- Footer Elements -->
 
-      <!-- Copyright -- >
-    <div class="footer-copyright text-center py-3">© 2019 Copyright:
-      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
-    </div>
-    < !-- Copyright -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-2">© 2019 Copyright:
+        <a href="#"> Abel Ticona</a>
+      </div>
+      <!-- Copyright -->
 
     </footer>
 
@@ -193,12 +178,7 @@
   <!-- SCRIPTS -->
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
 
   <script src="app.js" type="module"></script>
 </body>

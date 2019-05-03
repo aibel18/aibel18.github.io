@@ -8,7 +8,7 @@ let routes = {
   "#research": { name: "Research", component: "res-com", url: "./pages/researchCom.js" },
   "#experience": { name: "Experience", component: "exp-com", url: "./pages/experienceCom.js" },
   "#publications": { name: "Publications", component: "pub-com", url: "./pages/publicationsCom.js" },
-  "#appdata": { name: "App/Data", component: "app-com", url: "./pages/appCom.js" }
+  "#appdata": { name: "App&Data", component: "app-com", url: "./pages/appCom.js" }
 };
 for (let v in routes) {
 
@@ -28,7 +28,8 @@ var app = new Vue({
   },
   data: {
     block: false,
-    menu: routes
+    menu: routes,
+    menuSelect: String
   },
   computed: {
     /*service: function () {
@@ -38,12 +39,40 @@ var app = new Vue({
   mounted: function () {
     setTimeout(() => {
       this.$refs.router.start();
-    }, 200);
+    }, 400);
   },
   created: function () {
     //this.$refs.router.start();
   }
 });
+
+
+(function ($) {
+  var SCROLLING_NAVBAR_OFFSET_TOP = 50;
+  $(window).on('scroll', function () {
+    var $navbar = $('.navbar');
+
+    if ($navbar.length) {
+      if ($navbar.offset().top > SCROLLING_NAVBAR_OFFSET_TOP) {
+        $('.scrolling-navbar').addClass('top-nav-collapse');
+      } else {
+        $('.scrolling-navbar').removeClass('top-nav-collapse');
+      }
+    }
+  });
+
+  $(".navbar-toggler").on("click", function () {
+    $("#navbarTogglerDemo").toggleClass("collapse");
+  });
+
+  $(".nav-link").on("click", function () {
+    $("#navbarTogglerDemo").addClass("collapse");
+  });
+
+
+
+
+})(jQuery);
 
 
 

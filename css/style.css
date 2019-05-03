@@ -68,3 +68,16 @@ header,
 .nav-link {
   color: #fff;
 }
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  color: #0bceaf;
+  /*box-shadow: 0px 2px 0px 0 #0bceaf;*/
+}
+
+.navbar .active{
+  color: #0bceaf!important;
+  box-shadow: 0px 2px 0px 0 #0bceaf;
+}
+footer.page-footer .footer-copyright{
+  color: #0bceaf!important;
+}

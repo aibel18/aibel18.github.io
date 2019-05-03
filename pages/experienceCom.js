@@ -2,6 +2,7 @@ Vue.component('exp-com', {
   template:
     `
     <!--Section: experience-->
+    <main>
       <section id="experience" class="py-5">
 
         <!-- Container -->
@@ -9,11 +10,6 @@ Vue.component('exp-com', {
           <!-- Section heading -->
           <h2 class="h1-responsive font-weight-bold text-center mb-5">Experience</h2>
           <!-- Section description -->
-          <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet,
-            consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad
-            minim veniam.</p>
 
           <!-- Grid row -->
           <div class="row">
@@ -32,10 +28,9 @@ Vue.component('exp-com', {
 
                 <!-- Grid column -->
                 <div class="col-xl-10 col-md-11 col-10">
-                  <h5 class="font-weight-bold mb-3">Safety</h5>
-                  <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad
-                    minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-                    assumenda deleniti hic.</p>
+                  <h5 class="font-weight-bold mb-3">Systems Architect </h5>
+                  <p class="grey-text" style="text-align:justify">
+                  </p>
                 </div>
                 <!-- Grid column -->
 
@@ -53,36 +48,14 @@ Vue.component('exp-com', {
 
                 <!-- Grid column -->
                 <div class="col-xl-10 col-md-11 col-10">
-                  <h5 class="font-weight-bold mb-3">Technology</h5>
-                  <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad
-                    minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-                    assumenda deleniti hic.</p>
+                  <h5 class="font-weight-bold mb-3">Web Developer</h5>
+                  <p class="grey-text" style="text-align:justify">
+                  </p>
                 </div>
                 <!-- Grid column -->
 
               </div>
               <!-- Grid row -->
-
-              <!--Grid row-->
-              <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-1">
-                  <i class="fa fa-mail-forward fa-lg purple-text"></i>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-xl-10 col-md-11 col-10">
-                  <h5 class="font-weight-bold mb-3">Finance</h5>
-                  <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim
-                    ad minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-                    assumenda deleniti hic.</p>
-                </div>
-                <!-- Grid column -->
-
-              </div>
-              <!--Grid row-->
 
             </div>
             <!--Grid column-->
@@ -102,6 +75,7 @@ Vue.component('exp-com', {
 
       </section>
       <!--Section: experience-->
+    </main>
     `,
   data: function () {
     return {

@@ -2,26 +2,20 @@ Vue.component('res-com', {
   template:
     `
     <!--Section: research-->
-      <section id="research" class="py-5" style="background-color: #eee;">
+      <section id="research" class="py-5" >
 
         <!-- Container -->
         <div class="container">
           <!-- Section heading -->
           <h2 class="h1-responsive font-weight-bold text-center mb-5">Research</h2>
           <!-- Section description -->
-          <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet,
-            consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad
-            minim veniam.</p>
 
           <!-- Grid row -->
           <div class="row">
 
             <!-- Grid column -->
-            <div class="col-lg-5 text-center text-lg-left">
-              <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg"
-                alt="Sample image">
+            <div class="col-lg-5 text-center">
+              <img class="img-fluid" src="img/research.jpg" alt="Sample image" style="max-width:350px;padding-bottom: 15px;">
             </div>
             <!-- Grid column -->
 
@@ -38,11 +32,11 @@ Vue.component('res-com', {
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-xl-10 col-md-11 col-10">
-                  <h5 class="font-weight-bold mb-3">Physics-based Animation</h5>
-                  <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad
-                    minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-                    assumenda deleniti hic.</p>
+                <div class="col-xl-10 col-md-11 col-10" style=" animation-duration: 1.0s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                  <h5 class="font-weight-bold mb-3">Physics-Based Animation</h5>
+                  <p style="text-align:justify">
+                  An area that uses core mathematics, methods for computer animation and motion simulation permitting animating natural phenomena with high realism and perception. Physics-based simulation methods for modeling shape, motion, and behavior as: particle systems, constraints, rigid bodies, deformable models, collisions and contact, fluids, and fracture.
+                  </p>
                 </div>
                 <!-- Grid column -->
 
@@ -59,11 +53,11 @@ Vue.component('res-com', {
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-xl-10 col-md-11 col-10">
-                  <h5 class="font-weight-bold mb-3">Human–computer interaction</h5>
-                  <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad
-                    minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-                    assumenda deleniti hic.</p>
+                <div class="col-xl-10 col-md-11 col-10" style=" animation-duration: 1.0s; animation-delay: 0.8s; animation-name: fadeInUp;">
+                  <h5 class="font-weight-bold mb-3">Interaction Computer</h5>
+                  <p style="text-align:justify">
+                  Is a multidisciplinary area of research aimed at interactive computer-mediated immersive simulations focuses on the generation of images and animations at interactive frame rates,  then the user interactions must often involve sight and touch. This simulations involving a blending of real and virtual objects and has many applications like VR, AR, medical simulations, computer games or virtual prototyping
+                  </p>
                 </div>
                 <!-- Grid column -->
 
@@ -80,11 +74,11 @@ Vue.component('res-com', {
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-xl-10 col-md-11 col-10">
+                <div class="col-xl-10 col-md-11 col-10" style=" animation-duration: 1.0s; animation-delay: 1.2s; animation-name: fadeInUp;">
                   <h5 class="font-weight-bold mb-3">Real-Time Rendering</h5>
-                  <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim
-                    ad minima veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam
-                    assumenda deleniti hic.</p>
+                  <p style="text-align:justify">
+                  Use and Development to algorithms and theoretical frameworks which enable the synthesis of images that previously were infeasible to render, with the challenge of that will be efficient and running in time-real, take advantaging of the potential in performant of the GPUs + CPUs.
+                  </p>
                 </div>
                 <!-- Grid column -->
 
