@@ -15,7 +15,7 @@ Vue.component('res-com', {
 
             <!-- Grid column -->
             <div class="col-lg-5 text-center">
-              <img class="img-fluid" src="img/research.jpg" alt="Sample image" style="max-width:350px;padding-bottom: 15px;">
+              <img class="img-fluid" src="img/research.jpg" alt="Sample image" style="max-height:550px;padding-bottom: 10px;">
             </div>
             <!-- Grid column -->
 
