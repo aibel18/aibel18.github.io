@@ -15,6 +15,33 @@ Vue.component('pub-com', {
           <div class="row">
             <!-- Grid column -->
             <div class="col-lg-4 text-center text-lg-left">
+              <img class="img-fluid" src="img/papers/phys-sketch.jpg" >
+            </div>
+            <!-- Grid column -->
+            <div class="col-lg-8">
+              <div style="text-align: left">
+                <h6 style="text-align: justify;font-weight:500;margin-bottom:0.25rem">
+                  Phys-Sketch: Sketching 3D Dynamic Objects in Immersive Virtual Reality
+                </h6>
+                <h6 style="font-weight:400;font-size: 0.85rem;">
+                  CGI 2019: Advances in Computer Graphics pp 119-130, June 2019
+                </h6>
+                <h6 style="text-align: justify;font-size: 0.9rem;margin-bottom:0.25rem">
+                  Sketching was traditionally a 2D task. Even when the new generation of VR devices allowed to sketch in 3D, the drawn models remained essentially static representations. In this paper, we introduce a new physics-inspired sketching technique built on the top of Position-based Dynamics to enrich the 3D drawings with dynamic behaviors. A particle-based method allows interacting in real time with a wide range of materials including fluids, rigid bodies, soft bodies and clothes. Users can interact with the dynamic sketches and sculpt them while they move, deform and fall. We analyze the expressiveness of the system from the regard of two experienced artists. Thus, this paper also gives a starting point to move towards an improved generation of physics-enabled sketching applications.
+                </h6>
+                <p style="font-size: 0.85rem;font-style: oblique;margin-bottom: 0;">
+                  J. A. Ticona, S. Villa, R. Torchelsen, A. Maciel, L. Nedel
+                </p>
+                <span style="font-size: 0.9rem;">
+                  [<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-22514-8_10">Ext</a>]
+                </span>
+              </div>              
+            </div>            
+          </div>
+          <hr style="border-top: 1px solid rgba(0,0,0,.2);"/>
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-lg-4 text-center text-lg-left">
               <img class="img-fluid" src="img/papers/shifting.jpg" >
             </div>
             <!-- Grid column -->
