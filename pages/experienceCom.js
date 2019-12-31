@@ -28,7 +28,8 @@ Vue.component('exp-com', {
 
                 <!-- Grid column -->
                 <div class="col-xl-10 col-md-11 col-10">
-                  <h5 class="font-weight-bold mb-3">Systems Architect </h5>
+                  <h5 class="font-weight-bold mb-3">Developer Engineer</h5>
+                  <h6 style="font-size: 0.9rem;">Mar-2017 to Nov-2019</h6>
                   <p class="grey-text" style="text-align:justify">
                   </p>
                 </div>
@@ -48,7 +49,29 @@ Vue.component('exp-com', {
 
                 <!-- Grid column -->
                 <div class="col-xl-10 col-md-11 col-10">
-                  <h5 class="font-weight-bold mb-3">Web Developer</h5>
+                  <h5 class="font-weight-bold mb-3">Systems Architect </h5>
+                  <h6 style="font-size: 0.9rem;">Apr-2016 to Feb-2017</h6>
+                  <p class="grey-text" style="text-align:justify">
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+              <!-- Grid row -->
+              <div class="row mb-3">
+
+                <!-- Grid column -->
+                <div class="col-1">
+                  <i class="fa fa-mail-forward fa-lg purple-text"></i>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-xl-10 col-md-11 col-10">
+                  <h5 class="font-weight-bold mb-3">Full Stack</h5>
+                  <h6 style="font-size: 0.9rem;">Jan-2014 to Feb-2017</h6>
                   <p class="grey-text" style="text-align:justify">
                   </p>
                 </div>

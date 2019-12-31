@@ -6,9 +6,9 @@ let routes = {
   "#": { name: "home", component: "hom-com", url: "./pages/homeCom.js" },
   "#about": { name: "About", component: "abo-com", url: "./pages/aboutCom.js" },
   "#research": { name: "Research", component: "res-com", url: "./pages/researchCom.js" },
-  "#experience": { name: "Experience", component: "exp-com", url: "./pages/experienceCom.js" },
   "#publications": { name: "Publications", component: "pub-com", url: "./pages/publicationsCom.js" },
-  "#appdata": { name: "App&Data", component: "app-com", url: "./pages/appCom.js" }
+  "#experience": { name: "Experience", component: "exp-com", url: "./pages/experienceCom.js" },  
+  //"#appdata": { name: "App&Data", component: "app-com", url: "./pages/appCom.js" }
 };
 for (let v in routes) {
 

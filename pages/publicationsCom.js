@@ -33,6 +33,7 @@ Vue.component('pub-com', {
                   J. A. Ticona, S. Villa, R. Torchelsen, A. Maciel, L. Nedel
                 </p>
                 <span style="font-size: 0.9rem;">
+                  [<a href="https://www.youtube.com/watch?v=SmifEHm6Qfo">video</a>]
                   [<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-22514-8_10">Ext</a>]
                 </span>
               </div>              
@@ -60,6 +61,7 @@ Vue.component('pub-com', {
                   S. V. Salazar, J. A. Ticona, R. Torchelsen, L. Nedel, A. Maciel
                 </p>
                 <span style="font-size: 0.9rem;">
+                  [<a href="https://www.youtube.com/watch?v=NxDGKqG4MIA">video</a>]
                   [<a href="https://www.sciencedirect.com/science/article/pii/S0097849318301389?via%3Dihub">Ext</a>]
                 </span>
               </div>              
@@ -86,7 +88,7 @@ Vue.component('pub-com', {
                 <p style="font-size: 0.85rem;font-style: oblique;margin-bottom: 0;">
                   G. de Souza, L. Torres, V. Dani, D. Villa, J. A. Ticona, A. Maciel, L. Nedel
                 </p>
-                <span style="font-size: 0.9rem;">[<a>PDF</a>] [<a>video</a>]</span>
+                <span style="font-size: 0.9rem;">[<a href="https://ieeexplore.ieee.org/document/8802446">Ext</a>]</span>
               </div>              
             </div>            
           </div>
@@ -112,7 +114,8 @@ Vue.component('pub-com', {
                   J. G. Grandi, H. G. Debarba, J. Franz, V. Oliveira, J. A. Ticona, G. A. Souza, I. Berti, S. Villa, L. Nedel, A. Maciel
                 </p>
                 <span style="font-size: 0.9rem;">
-                  [<a href="http://inf.ufrgs.br/~jggrandi/publications/3DAthlon-VR3DUI2018/3DAthlon-VR3DUI2018-paper.pdf">PDF</a>] [<a href="https://www.youtube.com/watch?v=P_THFOV-A0E">video</a>]
+                  [<a href="http://inf.ufrgs.br/~jggrandi/publications/3DAthlon-VR3DUI2018/3DAthlon-VR3DUI2018-paper.pdf">PDF</a>]
+                  [<a href="https://www.youtube.com/watch?v=P_THFOV-A0E">video</a>]
                 </span>
               </div>              
             </div>            
