@@ -1,6 +1,6 @@
 Vue.component('abo-com', {
-  template:
-    `
+	template:
+		`
     <!--Main layout-->
     <main>
     <!--Section: about-->
@@ -51,17 +51,7 @@ Vue.component('abo-com', {
                   <i class="fa fa-star-half-o amber-text"> </i>
                 </div>
               </div>
-              <div >
-                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">C#</h6>
-                <div style="text-align: right; display:inline-block">
-                  <i class="fa fa-star amber-text"> </i>
-                  <i class="fa fa-star amber-text"> </i>
-                  <i class="fa fa-star amber-text"> </i>
-                  <i class="fa fa-star-half-o amber-text"> </i>
-                  <i class="fa fa-star-o amber-text"> </i>
-                </div>
-              </div>
-              <div >
+							<div >
                 <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">Java</h6>
                 <div style="text-align: right; display:inline-block">
                   <i class="fa fa-star amber-text"> </i>
@@ -69,6 +59,16 @@ Vue.component('abo-com', {
                   <i class="fa fa-star amber-text"> </i>
                   <i class="fa fa-star amber-text"> </i>
                   <i class="fa fa-star-half-o amber-text"> </i>
+                </div>
+              </div>
+              <div >
+                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">C#</h6>
+                <div style="text-align: right; display:inline-block">
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star-o amber-text"> </i>
                 </div>
               </div>              
               <div >
@@ -79,6 +79,26 @@ Vue.component('abo-com', {
                   <i class="fa fa-star amber-text"> </i>
                   <i class="fa fa-star amber-text"> </i>
                   <i class="fa fa-star-o amber-text"> </i>
+                </div>
+              </div>
+							<div >
+                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">Kotlin</h6>
+                <div style="text-align: right; display:inline-block">
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star-o amber-text"> </i>
+									<i class="fa fa-star-o amber-text"> </i>
+                </div>
+              </div>
+							<div >
+                <h6 class="font-weight-bold"  style="width:50%;text-align: left; display:inline-block">Python</h6>
+                <div style="text-align: right; display:inline-block">
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star amber-text"> </i>
+                  <i class="fa fa-star-o amber-text"> </i>
+									<i class="fa fa-star-o amber-text"> </i>
                 </div>
               </div>
               
@@ -107,6 +127,7 @@ Vue.component('abo-com', {
               <a class="btn btn-sm btn-outline-primary" > OpenCV</a>
               <a class="btn btn-sm btn-outline-primary" > OpenVR</a>
               <a class="btn btn-sm btn-outline-primary" > threeJS</a>
+							<a class="btn btn-sm btn-outline-primary" > Unity</a>
 
               <h6 class="h6-responsive font-weight-bold mb-2" style="margin-top: 15px;"> Full Web</h6>
 
@@ -147,7 +168,7 @@ Vue.component('abo-com', {
               <i class="fa fa-graduation-cap" style="position:absolute; left:0"> </i>
                 <div style="margin-left: 28px;text-align: left">
                   <h6 >M.S. in Computer Graphics From <a href="http://www.ufrgs.br/ufrgs/inicial">Federal University of Rio Grande do Sul </a></h6>
-                  <h6>2017-2019</h6>              
+                  <h6>2017-2020</h6>              
                   <h6>researcher at the laboratory <a href="http://www.inf.ufrgs.br/site/en/"> INF</a></h6>
                   <p >Porto Alegre - Brazil</p>
                 </div>
@@ -185,16 +206,16 @@ Vue.component('abo-com', {
       </section>
     </main>  
     `,
-  data: function () {
-    return {
-      caja: {}
-    }
-  },
-  methods: {
-    loadData: function () {
-      var self = this;
-    }
-  }/*,
+	data: function () {
+		return {
+			caja: {}
+		}
+	},
+	methods: {
+		loadData: function () {
+			var self = this;
+		}
+	}/*,
   mounted: function () {
     console.log("load home");
   }*/

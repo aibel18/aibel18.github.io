@@ -2,139 +2,137 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Abel Ticona</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Abel Ticona</title>
 
-  <link rel="shortcut icon" type="image/png" href="favicon.ico" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet">
-  <script src="js/vue.js">
-  </script>
+	<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<!-- Your custom styles (optional) -->
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/vue.js">
+	</script>
 </head>
 
 <body>
-  <div id="app" style="height: inherit;width: inherit;">
-    <!-- Main navigation -->
-    <header>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <div class="container">
-          <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo">
-            <ul class="navbar-nav smooth-scroll" style="margin:auto">
-              <li class="nav-item" v-for="(item, index) in menu">
-                <a class="nav-link" :class=" { active: index == menuSelect }" :href="index"
-                  data-offset="90">{{item.name}}</a>
-              </li>
-            </ul>
+	<div id="app" style="height: inherit;width: inherit;">
+		<!-- Main navigation -->
+		<header>
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+				<div class="container">
+					<button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo">
+						<ul class="navbar-nav smooth-scroll" style="margin:auto">
+							<li class="nav-item" v-for="(item, index) in menu">
+								<a class="nav-link" :class=" { active: index == menuSelect }" :href="index" data-offset="90">{{item.name}}</a>
+							</li>
+						</ul>
 
-          </div>
-        </div>
-      </nav>
-      <!-- Navbar -->
-      <!-- Full Page Intro -->
-      <div id="intro-section" class="view">
-        <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline
-          autoplay muted loop>
-          <!-- <source src="https://mdbootstrap.com/img/video/animation.mp4" type="video/mp4">-->
-        </video>
-        <!-- Mask & flexbox options-->
-        <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
-          <!-- Content -->
-          <div class="container px-md-3 px-sm-0">
-            <!--Grid row-->
-            <div class="row wow fadeIn">
-              <!--Grid column-->
-              <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
-                <div style="margin: 0 auto 1.25rem; max-width: 190px;position:relative">
-                  <img src="img/perfil2.jpg" class="rounded-circle img-fluid" style="position: absolute; left: 0; top: 0;"
-                    alt="First sample avatar image">
-                  <img src="img/perfil.jpg" class="top rounded-circle img-fluid" alt="First sample avatar image">                  
-                </div>
+					</div>
+				</div>
+			</nav>
+			<!-- Navbar -->
+			<!-- Full Page Intro -->
+			<div id="intro-section" class="view">
+				<video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted
+							 loop>
+					<!-- <source src="https://mdbootstrap.com/img/video/animation.mp4" type="video/mp4">-->
+				</video>
+				<!-- Mask & flexbox options-->
+				<div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+					<!-- Content -->
+					<div class="container px-md-3 px-sm-0">
+						<!--Grid row-->
+						<div class="row wow fadeIn">
+							<!--Grid column-->
+							<div class="col-md-12 mb-4 white-text text-center wow fadeIn">
+								<div style="margin: 0 auto 1.25rem; max-width: 190px;position:relative">
+									<img src="img/perfil2.jpg" class="rounded-circle img-fluid" style="position: absolute; left: 0; top: 0;"
+											 alt="First sample avatar image">
+									<img src="img/perfil1.jpg" class="top rounded-circle img-fluid" alt="First sample avatar image">
+								</div>
 
-                <h3 class="white-text mb-0" style="font-weight: 400">Jose Abel Ticona Larico</h3>
-                <h5 class="subtext-header"
-                  style="visibility: visible; animation-duration: 1.0s; animation-delay: 0.5s; animation-name: fadeInDown;">
-                  Researcher & Developer
-                </h5>
-                <ul style="list-style: none;display: block;padding-left: 0;">
-                  <li class="wow fadeInUp"
-                    style="visibility: visible; animation-duration: 1.0s; animation-delay: 0.4s; animation-name: fadeInUp;font-size: 0.9rem;">
-                    <i class="fa fa-envelope"
-                      style="margin-right: 15px;display: inline-block;"></i><a>jaticona@gmail.com</a></li>
-                  <li class="wow fadeInUp"
-                    style="visibility: visible; animation-duration: 1.0s; animation-delay: 0.5s; animation-name: fadeInUp;font-size: 0.9rem;">
-                    <i class="fa fa-phone" style="margin-right: 15px;display: inline-block;"></i><a> +55 51
-                      981261807 </a></li>
-                  <li class="wow fadeInUp"
-                    style="visibility: visible; animation-duration: 1.0s; animation-delay: 0.6s; animation-name: fadeInUp;font-size: 0.9rem;">
-                    <i class="fa fa-map-marker" style="margin-right: 15px;display: inline-block;"></i>
-                    <a>Porto Alegre, Brazil</a>
-                  </li>
-                </ul>
-                <hr class="hr-light w-75" style="margin-bottom: 0.5rem">
-                <!-- Social Icon  -->
-                <ul class="nav-flex-icons"
-                  style="padding-left: 0;display: flex;list-style: none;width: 300px;margin: auto;">
-                  <li class="nav-item" style="width: 40px;margin: auto">
-                    <a class="nav-link" href="https://www.instagram.com/abel_ticona/">
-                      <i class="fa fa-instagram light-green-text-2"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item" style="width: 40px;margin: auto">
-                    <a class="nav-link" href="https://www.facebook.com/abel.ticonalarico">
-                      <i class="fa fa-facebook light-green-text-2"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item" style="width: 40px;margin: auto">
-                    <a class="nav-link" href="https://twitter.com/jaticona18">
-                      <i class="fa fa-twitter light-green-text-2"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item" style="width: 40px;margin: auto">
-                    <a class="nav-link" href="https://github.com/aibel18">
-                      <i class="fa fa-github light-green-text-2"></i>
-                    </a>
-                  </li>
-                  <li class="nav-item" style="width: 40px;margin: auto">
-                    <a class="nav-link" href="https://www.linkedin.com/in/abel-ticona-larico-184106104/">
-                      <i class="fa fa-linkedin light-green-text-2"></i>
-                    </a>
-                  </li>
-                </ul>
-
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </div>
-          <!-- Content -->
-        </div>
-        <!-- Mask & flexbox options-->
-      </div>
-      <!-- Full Page Intro -->
-    </header>
+								<h3 class="white-text mb-0" style="font-weight: 400">Jose Abel Ticona Larico</h3>
+								<h5 class="subtext-header"
+										style="visibility: visible; animation-duration: 1.0s; animation-delay: 0.5s; animation-name: fadeInDown;">
+									Researcher & Developer
+								</h5>
+								<ul style="list-style: none;display: block;padding-left: 0;">
+									<li class="wow fadeInUp"
+											style="visibility: visible; animation-duration: 1.0s; animation-delay: 0.4s; animation-name: fadeInUp;font-size: 0.9rem;">
+										<i class="fa fa-envelope" style="margin-right: 15px;display: inline-block;"></i><a>jaticona@gmail.com</a>
+									</li>
+									<li class="wow fadeInUp"
+											style="visibility: visible; animation-duration: 1.0s; animation-delay: 0.5s; animation-name: fadeInUp;font-size: 0.9rem;">
+										<i class="fa fa-phone" style="margin-right: 15px;display: inline-block;"></i><a> +55 51
+											989595230 </a>
+									</li>
+									<li class="wow fadeInUp"
+											style="visibility: visible; animation-duration: 1.0s; animation-delay: 0.6s; animation-name: fadeInUp;font-size: 0.9rem;">
+										<i class="fa fa-map-marker" style="margin-right: 15px;display: inline-block;"></i>
+										<a>Porto Alegre, Brazil</a>
+									</li>
+								</ul>
+								<hr class="hr-light w-75" style="margin-bottom: 0.5rem">
+								<!-- Social Icon  -->
+								<ul class="nav-flex-icons" style="padding-left: 0;display: flex;list-style: none;width: 300px;margin: auto;">
+									<li class="nav-item" style="width: 40px;margin: auto">
+										<a class="nav-link" href="https://github.com/aibel18">
+											<i class="fa fa-github light-green-text-2"></i>
+										</a>
+									</li>
+									<li class="nav-item" style="width: 40px;margin: auto">
+										<a class="nav-link" href="https://www.linkedin.com/in/abelticona/">
+											<i class="fa fa-linkedin light-green-text-2"></i>
+										</a>
+									</li>
+									<li class="nav-item" style="width: 40px;margin: auto">
+										<a class="nav-link" href="https://twitter.com/jaticona18">
+											<i class="fa fa-twitter light-green-text-2"></i>
+										</a>
+									</li>
+									<li class="nav-item" style="width: 40px;margin: auto">
+										<a class="nav-link" href="https://www.instagram.com/abel_ticona/">
+											<i class="fa fa-instagram light-green-text-2"></i>
+										</a>
+									</li>
+									<li class="nav-item" style="width: 40px;margin: auto">
+										<a class="nav-link" href="https://www.facebook.com/abel.ticonalarico">
+											<i class="fa fa-facebook light-green-text-2"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!--Grid column-->
+						</div>
+						<!--Grid row-->
+					</div>
+					<!-- Content -->
+				</div>
+				<!-- Mask & flexbox options-->
+			</div>
+			<!-- Full Page Intro -->
+		</header>
 
 
 
 
-    <vt-router ref="router"></vt-router>
-    <!--Main layout-->
+		<vt-router ref="router"></vt-router>
+		<!--Main layout-->
 
-    <!-- Footer -->
-    <footer class="page-footer font-small">
+		<!-- Footer -->
+		<footer class="page-footer font-small">
 
-      <!-- Footer Elements -- >
+			<!-- Footer Elements -- >
       <div class="container">
 
         < !-- Social buttons -- >
@@ -170,23 +168,23 @@
       </div>
       < !-- Footer Elements -->
 
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-2">© 2019 Copyright:
-        <a href="#"> Abel Ticona</a>
-      </div>
-      <!-- Copyright -->
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-2">© 2019 Copyright:
+				<a href="#"> Abel Ticona</a>
+			</div>
+			<!-- Copyright -->
 
-    </footer>
+		</footer>
 
-  </div>
-  <!-- Footer -->
+	</div>
+	<!-- Footer -->
 
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <!-- MDB core JavaScript -->
+	<!-- SCRIPTS -->
+	<!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<!-- MDB core JavaScript -->
 
-  <script src="app.js" type="module"></script>
+	<script src="app.js" type="module"></script>
 </body>
 
 </html>
